@@ -1,6 +1,28 @@
 <!DOCTYPE html>
 <head>
-    <link rel="icon" href="https://github.com/ylctql/Sherlocked/blob/main/Sherlocked.jpg">
+    <link rel="icon" href="https://github.com/ylctql/Sherlocked/blob/main/favicon.ico">
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        body {
+            background-image: url("./Sherlocked.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            /* background-color:#f5f5f5; */
+
+        }
+        p.date {
+            text-align: right;
+        }
+        p.main {
+            text-align: center;
+        }
+        p.inset {
+            border-color:green;
+            border-style:inset;
+            border-width:5px;
+        }
+    </style>
     <title>Sherlocked</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,13 +39,13 @@
 <h1>
     Sherlocked英雄简介
 </h1>
-    <p><strong>破壳日</strong>：2003.5.16</p>
-    <p><strong>出生地</strong>：中国江西南昌</p>
-    <p><strong>性别</strong>：♀</p>
-    <p><strong>npy</strong>：帅哥ylc</p>
+    <p class="center"><strong>破壳日</strong>：2003.5.16</p>
+    <p style="background-color:#f50000"><strong>出生地</strong>：中国江西南昌</p>
+    <p style="border-color:rgb(201, 19, 143);border-style:inset;border-width:5px"><strong>性别</strong>：♀</p>
+    <p class="date"><strong>npy</strong>：帅哥ylc</p>
 <hr>
 <h1>技能介绍</h1>
-<p><strong>普通攻击——嘲讽：</strong>对攻击对象造成100点魔法伤害，并有10%的概率打出暴击，造成150点魔法伤害</p>
+<p class="inset"><strong>普通攻击——嘲讽：</strong>对攻击对象造成100点魔法伤害，并有10%的概率打出暴击，造成150点魔法伤害</p>
 <p><strong>被动——家暴：</strong>若攻击对象为<em>帅哥ylc</em>，则对其造成的伤害提升100%</p>
 <p><strong>一技能——那咋了：</strong>对攻击对象造成500点魔法伤害，并在5s内为自己增加100点护盾，但是会吸引对方仇恨使对方进入狂暴状态3s</p>
 <img src="https://github.com/ylctql/Sherlocked/blob/main/sowhat.jpg" width="200" alt="那咋了">
